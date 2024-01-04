@@ -1,8 +1,11 @@
-import React from 'react'
+import { motion } from 'framer-motion'
+
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <section className='relative w-full h-screen mx-auto'>
+
+    </section>
   )
 }
 
