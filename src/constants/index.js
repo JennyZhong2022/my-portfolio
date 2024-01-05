@@ -24,6 +24,7 @@ import {
   tripguide,
   threejs,
   python,
+  dreamlife,
 } from "../assets";
 
 export const navLinks = [
@@ -121,16 +122,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Sales Customer Service Manager",
+    company_name: "Dreamlife Photos & Video",
+    icon:  dreamlife,
+    iconBg: "#FFFFFF",
+    date: "May 2015 - Oct 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Tailoring a wedding package in accordance to customers needs and budget. Adapting agile methodologies to improve processes and increase sales by 26% over the previous year after being given responsibility for sales.",
+      "Liaised effectively with photographers, make-up artists, editors, and clients to tailor wedding packages, enhancing customer satisfaction through excellent communication and collaboration.",
+      "Managed customer inquiries and bookings, showcasing responsibility in handling client relations and demonstrating robust organizational abilities.",
+      " Addressed and resolved customer issues promptly, resulting in very few complaints due to positive and timely responses. This ensured high service standards and skillful management of any unforeseen challenges.",
     ],
   },
   {
