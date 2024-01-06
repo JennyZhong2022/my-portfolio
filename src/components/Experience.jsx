@@ -25,7 +25,7 @@ const ExperienceCard = ({ experience }) => (
       <h3 className="text-white text-[24px] font-bold">
         {experience.title}
       </h3>
-      <p className="text-secondary text-[16px0 font-semibold">{ experience.company_name}</p>
+      <p className="text-secondary text-[16px] font-semibold">{ experience.company_name}</p>
     </div>
     
     {/* space-y-2: Tin CSS,  :not(:last-child) pseudo-class to apply margin to all child elements except the last one. margin-bottom: 0.5rem*/}
