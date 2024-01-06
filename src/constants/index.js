@@ -7,20 +7,23 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  // redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  bootstrap,
+  MUI,
+  django,
+  // figma,
+  // docker,
   general_assembly,
   medical_team,
   victoria_state_gov,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  // threejs,
   python,
   dreamlife,
 } from "../assets";
@@ -84,10 +87,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -100,22 +103,43 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "MUI",
+    icon: MUI,
   },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Django",
+    icon: django,
+  },
+
+  //   {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [

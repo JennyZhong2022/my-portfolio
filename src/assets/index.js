@@ -16,10 +16,13 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+// import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import bootstrap from './tech/Bootstrap.svg';
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import MUI from './tech/MUI.png';
+import django from './tech/django-python.png';
+// import threejs from "./tech/threejs.svg";
 
 
 
@@ -49,10 +52,13 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
+  // redux,
   tailwind,
+  bootstrap,
+  MUI,
+  django,
   typescript,
-  threejs,
+  // threejs,
   general_assembly,
   victoria_state_gov,
   medical_team,
