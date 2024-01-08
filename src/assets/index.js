@@ -8,8 +8,8 @@ import close from "./close.svg";
 import python from './python.png'
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+// import docker from "./tech/docker.png";
+// import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -31,9 +31,10 @@ import dreamlife from './company/dreamlife.png';
 import medical_team from './company/medical_team.png';
 import victoria_state_gov from './company/victoria_state_government.svg';
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import slotmachine from './slotmachine.jpeg';
+import startasker from "./startasker.jpeg";
+import booksnap from "./booksnap.jpeg";
+import dreamphotography from "./dreamphotography.jpeg";
 
 export {
   logo,
@@ -44,14 +45,15 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
+  // docker,
+  // figma,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
   reactjs,
+  python,
   // redux,
   tailwind,
   bootstrap,
@@ -63,8 +65,9 @@ export {
   victoria_state_gov,
   medical_team,
   dreamlife,
-  carrent,
-  jobit,
-  tripguide,
-  python,
+  slotmachine,
+  startasker,
+  booksnap,
+  dreamphotography,
+
 };
