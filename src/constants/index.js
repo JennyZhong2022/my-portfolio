@@ -247,6 +247,7 @@ const projects = [
     ],
     image: dreamphotography,
     source_code_link: "https://github.com/JennyZhong2022/Dream-Photography",
+    website_link:'https://dreamphotography-f9294ed19bab.herokuapp.com/'
   },
   {
     name: "BookSnap",
@@ -276,6 +277,7 @@ const projects = [
     ],
     image: booksnap,
     source_code_link: "https://github.com/JennyZhong2022/BookSnap",
+    website_link:'https://booksnap-ecea12c610c0.herokuapp.com/',
   },
   {
     name: "Star Tasker",
@@ -305,6 +307,7 @@ const projects = [
     ],
     image: startasker,
     source_code_link: "https://github.com/JennyZhong2022/Star-Tasker",
+    website_link:'https://star-tasker-10a7c6bbe05a.herokuapp.com/tasks/all',
   },
   {
     name: "Slot Machine Game",
@@ -326,6 +329,7 @@ const projects = [
     ],
     image: slotmachine,
     source_code_link: "https://github.com/JennyZhong2022/Slot-Machine",
+    website_link:'https://jennyzhong2022.github.io/Slot-Machine/',
   },
   
 ];
