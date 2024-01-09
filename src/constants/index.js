@@ -245,6 +245,10 @@ const projects = [
         name: "bootstrap",
         color: "blue-text-gradient",
       },
+      {
+        name: "heroku",
+        color: "green-text-gradient",
+      },
     ],
     image: dreamphotography,
     source_code_link: "https://github.com/JennyZhong2022/Dream-Photography",
@@ -283,6 +287,10 @@ const projects = [
         name: "trello",
         color: "blue-text-gradient",
       },
+      {
+        name: "heroku",
+        color: "green-text-gradient",
+      },
     ],
     image: booksnap,
     source_code_link: "https://github.com/JennyZhong2022/BookSnap",
@@ -312,6 +320,14 @@ const projects = [
       {
         name: "cloudinary",
         color: "green-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "heroku",
+        color: "blue-text-gradient",
       },
     ],
     image: startasker,
@@ -365,6 +381,11 @@ const projects = [
         name: "javascript",
         color: "pink-text-gradient",
       },
+      {
+        name: "github",
+        color: "blue-text-gradient",
+      },
+      
     ],
     image: slotmachine,
     source_code_link: "https://github.com/JennyZhong2022/Slot-Machine",
