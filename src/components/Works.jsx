@@ -8,7 +8,9 @@ import { projects } from '../constants';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link,website_link }) => {
   return(
-  <motion.div variants={fadeIn('up','spring',index*0.5,0.75)}>
+    <motion.div
+      // variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
+    >
       <Tilt
         option={{
           max: 45,
