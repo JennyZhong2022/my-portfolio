@@ -321,7 +321,7 @@ const projects = [
       },
       
     ],
-    image: slotmachine,
+    image: 'https://buffer.com/library/content/images/2023/09/instagram-image-size.jpg',
     source_code_link: "https://github.com/JennyZhong2022/Slot-Machine",
     website_link:'https://jennyzhong2022.github.io/Slot-Machine/',
   },
