@@ -268,36 +268,36 @@ const projects = [
     source_code_link: "https://github.com/JennyZhong2022/Star-Tasker",
     website_link:'https://star-tasker-10a7c6bbe05a.herokuapp.com/tasks/all',
   },
-  // {
-  //   name: "Hunter's Garden",
-  //   description:
-  //     "Hunter's Garden is an engaging single-page website created for a private pet-sitting service. It features the inspiring growth story of Hunter and owner. Moreover, the site is integrated with social media, providing links to the owner's Facebook and Instagram pages. The 'Contact' section is thoughtfully designed with direct email integration, enabling clients to communicate with the owner via a contact form. The website is responsive.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mui",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "emailjs",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "chakra",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "aws",
-  //       color: "green-text-gradient",
-  //     },
-  //   ],
-  //   image: huntergarden,
-  //   source_code_link: "https://github.com/JennyZhong2022/Hunter",
-  //   website_link:'http://huntergarden.s3-website-ap-southeast-2.amazonaws.com/',
-  // },
+  {
+    name: "Hunter's Garden",
+    description:
+      "Hunter's Garden is an engaging single-page website created for a private pet-sitting service. It features the inspiring growth story of Hunter and owner. Moreover, the site is integrated with social media, providing links to the owner's Facebook and Instagram pages. The 'Contact' section is thoughtfully designed with direct email integration, enabling clients to communicate with the owner via a contact form. The website is responsive.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "emailjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "chakra",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "green-text-gradient",
+      },
+    ],
+    image: huntergarden,
+    source_code_link: "https://github.com/JennyZhong2022/Hunter",
+    website_link:'http://huntergarden.s3-website-ap-southeast-2.amazonaws.com/',
+  },
   // {
   //   name: "Slot Machine Game",
   //   description:
