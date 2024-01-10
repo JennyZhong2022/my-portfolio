@@ -3,6 +3,7 @@ import { styles } from "../styles"
 // import { ComputersCanvas } from './canvas'
 
 
+
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
@@ -11,16 +12,20 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[#357DB8]"/>
           <div className="w-1 sm:h-80 h-40 blue-gradient" />
         </div>
-        <div>
+        <div >
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I&apos;m <span className="text-[#357DB8]">
                  Jenny </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-         I take immense pride in what I craft and the innovations I bring to life. In the future, I aspire to produce even more, developing creations that can positively impact and transform people&apos;s lives.
+         I take immense pride in what I craft and the innovations I bring to life. In the future, I aspire to produce even more, developing creations that can positively impact and transform people&apos;s lives. I am excited about opportunities that allow me to grow, learn, and contribute to meaningful and creative projects in the tech world
           </p>
         </div>
       </div>
-      {/* <ComputersCanvas /> */}
+      
+   
+  
+        {/* <ComputersCanvas /> */}
+     
     
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
