@@ -2,7 +2,8 @@ import { SectionWrapper } from '../hoc'
 
 const Footer = () => {
   return (
-    <footer  className=' text-secondary text-[14px] flex justify-center item-center '>
+    <footer  className="text-secondary text-[12px]  flex justify-center items-center"
+>
   All Rights Reserved, Jenny Zhong Portfolio &copy; 2024
     </footer>
   )
