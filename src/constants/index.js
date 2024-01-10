@@ -225,147 +225,147 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: dreamphotography,
+    image: 'https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/09/instagram-image-size.jpg',
     source_code_link: "https://github.com/JennyZhong2022/Dream-Photography",
     website_link:'https://dreamphotography-f9294ed19bab.herokuapp.com/'
   },
-  {
-    name: "BookSnap",
-    description:
-      "BookSnap is a full-stack, single-page web application that allows users to search for books using the Google Books API. Users can search for books, add them to their collection, and manage their reading list. It is a collaborative project involving four team members who worked together for one week, utilizing GitHub branches and Trello to assign tasks. The project focuses on a MERN infrastructure.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "expressjs",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongoose",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mui",
-        color: "green-text-gradient",
-      },
-      {
-        name: "git",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "trello",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "heroku",
-        color: "green-text-gradient",
-      },
-    ],
-    image: booksnap,
-    source_code_link: "https://github.com/JennyZhong2022/BookSnap",
-    website_link:'https://booksnap-ecea12c610c0.herokuapp.com/',
-  },
-  {
-    name: "Star Tasker",
-    description:
-      "Star Tasker is a user-friendly web application designed to streamline task management. It offers secure user authentication for signup and login, ensuring the protection of user data. Users can effortlessly post tasks, upload multiple images for each task and manage their tasks through a personalized dashboard. Additionally, the application boasts a responsive design too",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongoose",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "cloudinary",
-        color: "green-text-gradient",
-      },
-      {
-        name: "expressjs",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "heroku",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: startasker,
-    source_code_link: "https://github.com/JennyZhong2022/Star-Tasker",
-    website_link:'https://star-tasker-10a7c6bbe05a.herokuapp.com/tasks/all',
-  },
-  {
-    name: "Hunter's Garden",
-    description:
-      "Hunter's Garden is an engaging single-page website created for a private pet-sitting service. It features the inspiring growth story of Hunter and owner. Moreover, the site is integrated with social media, providing links to the owner's Facebook and Instagram pages. The 'Contact' section is thoughtfully designed with direct email integration, enabling clients to communicate with the owner via a contact form. The website is responsive.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mui",
-        color: "green-text-gradient",
-      },
-      {
-        name: "emailjs",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "chakra",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "aws",
-        color: "green-text-gradient",
-      },
-    ],
-    image: huntergarden,
-    source_code_link: "https://github.com/JennyZhong2022/Hunter",
-    website_link:'http://huntergarden.s3-website-ap-southeast-2.amazonaws.com/',
-  },
-  {
-    name: "Slot Machine Game",
-    description:
-      "A browser based slot machine game. Immerse yourself in the atmosphere with realistic audio effects that enhance your game-play experience. Our game offers flexible betting options and with every spin being entirely random, you're guaranteed a unique and exciting experience every time you play.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "github",
-        color: "blue-text-gradient",
-      },
+  // {
+  //   name: "BookSnap",
+  //   description:
+  //     "BookSnap is a full-stack, single-page web application that allows users to search for books using the Google Books API. Users can search for books, add them to their collection, and manage their reading list. It is a collaborative project involving four team members who worked together for one week, utilizing GitHub branches and Trello to assign tasks. The project focuses on a MERN infrastructure.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "nodejs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "expressjs",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "mongoose",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mui",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "git",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "trello",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "heroku",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: 'booksnap',
+  //   source_code_link: "https://github.com/JennyZhong2022/BookSnap",
+  //   website_link:'https://booksnap-ecea12c610c0.herokuapp.com/',
+  // },
+  // {
+  //   name: "Star Tasker",
+  //   description:
+  //     "Star Tasker is a user-friendly web application designed to streamline task management. It offers secure user authentication for signup and login, ensuring the protection of user data. Users can effortlessly post tasks, upload multiple images for each task and manage their tasks through a personalized dashboard. Additionally, the application boasts a responsive design too",
+  //   tags: [
+  //     {
+  //       name: "javascript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "nodejs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mongoose",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "cloudinary",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "expressjs",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "heroku",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: startasker,
+  //   source_code_link: "https://github.com/JennyZhong2022/Star-Tasker",
+  //   website_link:'https://star-tasker-10a7c6bbe05a.herokuapp.com/tasks/all',
+  // },
+  // {
+  //   name: "Hunter's Garden",
+  //   description:
+  //     "Hunter's Garden is an engaging single-page website created for a private pet-sitting service. It features the inspiring growth story of Hunter and owner. Moreover, the site is integrated with social media, providing links to the owner's Facebook and Instagram pages. The 'Contact' section is thoughtfully designed with direct email integration, enabling clients to communicate with the owner via a contact form. The website is responsive.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mui",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "emailjs",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "chakra",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "aws",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: huntergarden,
+  //   source_code_link: "https://github.com/JennyZhong2022/Hunter",
+  //   website_link:'http://huntergarden.s3-website-ap-southeast-2.amazonaws.com/',
+  // },
+  // {
+  //   name: "Slot Machine Game",
+  //   description:
+  //     "A browser based slot machine game. Immerse yourself in the atmosphere with realistic audio effects that enhance your game-play experience. Our game offers flexible betting options and with every spin being entirely random, you're guaranteed a unique and exciting experience every time you play.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "github",
+  //       color: "blue-text-gradient",
+  //     },
       
-    ],
-    image: slotmachine,
-    source_code_link: "https://github.com/JennyZhong2022/Slot-Machine",
-    website_link:'https://jennyzhong2022.github.io/Slot-Machine/',
-  },
+  //   ],
+  //   image: slotmachine,
+  //   source_code_link: "https://github.com/JennyZhong2022/Slot-Machine",
+  //   website_link:'https://jennyzhong2022.github.io/Slot-Machine/',
+  // },
   
 ];
 
