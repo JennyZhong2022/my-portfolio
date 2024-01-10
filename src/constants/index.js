@@ -298,33 +298,33 @@ const projects = [
     source_code_link: "https://github.com/JennyZhong2022/Hunter",
     website_link:'http://huntergarden.s3-website-ap-southeast-2.amazonaws.com/',
   },
-  // {
-  //   name: "Slot Machine Game",
-  //   description:
-  //     "A browser based slot machine game. Immerse yourself in the atmosphere with realistic audio effects that enhance your game-play experience. Our game offers flexible betting options and with every spin being entirely random, you're guaranteed a unique and exciting experience every time you play.",
-  //   tags: [
-  //     {
-  //       name: "html",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "javascript",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "github",
-  //       color: "blue-text-gradient",
-  //     },
+  {
+    name: "Slot Machine Game",
+    description:
+      "A browser based slot machine game. Immerse yourself in the atmosphere with realistic audio effects that enhance your game-play experience. Our game offers flexible betting options and with every spin being entirely random, you're guaranteed a unique and exciting experience every time you play.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "github",
+        color: "blue-text-gradient",
+      },
       
-  //   ],
-  //   image: slotmachine,
-  //   source_code_link: "https://github.com/JennyZhong2022/Slot-Machine",
-  //   website_link:'https://jennyzhong2022.github.io/Slot-Machine/',
-  // },
+    ],
+    image: slotmachine,
+    source_code_link: "https://github.com/JennyZhong2022/Slot-Machine",
+    website_link:'https://jennyzhong2022.github.io/Slot-Machine/',
+  },
   // {
   //   name: "BookSnap",
   //   description:
