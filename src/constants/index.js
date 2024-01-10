@@ -225,7 +225,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: dreamphotography,
+    image: 'https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/09/instagram-image-size.jpg',
     source_code_link: "https://github.com/JennyZhong2022/Dream-Photography",
     website_link:'https://dreamphotography-f9294ed19bab.herokuapp.com/'
   },
