@@ -271,44 +271,44 @@ const projects = [
     source_code_link: "https://github.com/JennyZhong2022/BookSnap",
     website_link:'https://booksnap-ecea12c610c0.herokuapp.com/',
   },
-  // {
-  //   name: "Star Tasker",
-  //   description:
-  //     "Star Tasker is a user-friendly web application designed to streamline task management. It offers secure user authentication for signup and login, ensuring the protection of user data. Users can effortlessly post tasks, upload multiple images for each task and manage their tasks through a personalized dashboard. Additionally, the application boasts a responsive design too",
-  //   tags: [
-  //     {
-  //       name: "javascript",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "nodejs",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "mongoose",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "bootstrap",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "cloudinary",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "expressjs",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "heroku",
-  //       color: "blue-text-gradient",
-  //     },
-  //   ],
-  //   image: startasker,
-  //   source_code_link: "https://github.com/JennyZhong2022/Star-Tasker",
-  //   website_link:'https://star-tasker-10a7c6bbe05a.herokuapp.com/tasks/all',
-  // },
+  {
+    name: "Star Tasker",
+    description:
+      "Star Tasker is a user-friendly web application designed to streamline task management. It offers secure user authentication for signup and login, ensuring the protection of user data. Users can effortlessly post tasks, upload multiple images for each task and manage their tasks through a personalized dashboard. Additionally, the application boasts a responsive design too",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongoose",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cloudinary",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "heroku",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: 'https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/09/instagram-image-size.jpg',
+    source_code_link: "https://github.com/JennyZhong2022/Star-Tasker",
+    website_link:'https://star-tasker-10a7c6bbe05a.herokuapp.com/tasks/all',
+  },
   // {
   //   name: "Hunter's Garden",
   //   description:
