@@ -225,52 +225,11 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: 'https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/09/instagram-image-size.jpg',
+    image: dreamphotography,
     source_code_link: "https://github.com/JennyZhong2022/Dream-Photography",
     website_link:'https://dreamphotography-f9294ed19bab.herokuapp.com/'
   },
-  {
-    name: "BookSnap",
-    description:
-      "BookSnap is a full-stack, single-page web application that allows users to search for books using the Google Books API. Users can search for books, add them to their collection, and manage their reading list. It is a collaborative project involving four team members who worked together for one week, utilizing GitHub branches and Trello to assign tasks. The project focuses on a MERN infrastructure.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "expressjs",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongoose",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mui",
-        color: "green-text-gradient",
-      },
-      {
-        name: "git",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "trello",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "heroku",
-        color: "green-text-gradient",
-      },
-    ],
-    image: 'https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/09/instagram-image-size.jpg',
-    source_code_link: "https://github.com/JennyZhong2022/BookSnap",
-    website_link:'https://booksnap-ecea12c610c0.herokuapp.com/',
-  },
+  
   {
     name: "Star Tasker",
     description:
@@ -305,7 +264,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: 'https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/09/instagram-image-size.jpg',
+    image: startasker,
     source_code_link: "https://github.com/JennyZhong2022/Star-Tasker",
     website_link:'https://star-tasker-10a7c6bbe05a.herokuapp.com/tasks/all',
   },
@@ -365,6 +324,48 @@ const projects = [
   //   image: slotmachine,
   //   source_code_link: "https://github.com/JennyZhong2022/Slot-Machine",
   //   website_link:'https://jennyzhong2022.github.io/Slot-Machine/',
+  // },
+  // {
+  //   name: "BookSnap",
+  //   description:
+  //     "BookSnap is a full-stack, single-page web application that allows users to search for books using the Google Books API. Users can search for books, add them to their collection, and manage their reading list. It is a collaborative project involving four team members who worked together for one week, utilizing GitHub branches and Trello to assign tasks. The project focuses on a MERN infrastructure.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "nodejs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "expressjs",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "mongoose",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mui",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "git",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "trello",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "heroku",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: booksnap,
+  //   source_code_link: "https://github.com/JennyZhong2022/BookSnap",
+  //   website_link:'https://booksnap-ecea12c610c0.herokuapp.com/',
   // },
   
 ];
