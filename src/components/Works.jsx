@@ -75,7 +75,7 @@ const Works = () => {
           // variants={fadeIn('', '', 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through real-world examples of my work.Each one was finished in one week. Click the card to go the project website, click the github sign to go github repo.  
+          The following projects showcase my skills and experience with real-world examples of my work. Each one was completed within one week. Click on a card to visit the project's website, or click on the GitHub icon to go to the GitHub repository. 
       </motion.p>
       </div>
 
