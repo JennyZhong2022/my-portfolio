@@ -5,11 +5,13 @@ import { SectionWrapper } from '../hoc'
 import { github } from '../assets';
 import { fadeIn, textVariant } from '../utils/motion'
 import { projects } from '../constants';
+import { useEffect, useState } from "react";
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link,website_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, website_link,isMobile }) => {
+
   return(
     <motion.div
-      // variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
+      variants={!isMobile?fadeIn('up', 'spring', index * 0.5, 0.75):fadeIn('left', 'tween', index * 0.5, 0.75)}
     >
       <Tilt
         option={{
@@ -56,10 +58,34 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link,w
 }
 
 const Works = () => {
+
+  const [isMobile, setIsMobile] = useState(false)
+  
+  useEffect(() => {
+    // Add a listener for changes to the screen size
+    const mediaQuery = window.matchMedia("(max-width:500px)");
+
+    // Set the initial value of the `isMobile` state variable
+    setIsMobile(mediaQuery.matches);
+
+    // Define a callback function to handle changes to the media query
+    const _handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    // Add the callback function as a listener for changes to the media query
+    mediaQuery.addEventListener("change", _handleMediaQueryChange);
+
+    // Remove the listener when the component is unmounted
+    return () => {
+      mediaQuery.removeEventListener("change", _handleMediaQueryChange);
+    };
+  }, []);
+
   return (
     <>
       <motion.div
-        // variants={textVariant()}
+        variants={textVariant()}
       >
       <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Project.</h2>
@@ -67,7 +93,7 @@ const Works = () => {
 
       <div className='w-full flex'>
         <motion.p
-          // variants={fadeIn('', '', 0.1, 1)}
+          variants={fadeIn('', '', 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           Following projects showcases my skills and experience through real-world examples of my work.Each one was finished in one week. Click the card to go the project website, click the github sign to go github repo.  
@@ -80,6 +106,7 @@ const Works = () => {
             key={`project-${index}`}
             index={index}
             {...project}
+            isMobile={isMobile}
           />
         ))}
 
