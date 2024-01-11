@@ -11,7 +11,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
   return(
     <motion.div
-      variants={!isMobile?fadeIn('up', 'spring', index * 0.5, 0.75):fadeIn('left', 'tween', index * 0.5, 0.75)}
+      variants={!isMobile?fadeIn('up', 'spring', index * 0.5, 0.75):fadeIn('', '', '', '')}
     >
       <Tilt
         option={{
@@ -93,7 +93,7 @@ const Works = () => {
 
       <div className='w-full flex'>
         <motion.p
-          variants={fadeIn('', '', 0.1, 1)}
+          variants={!isMobile?fadeIn('', '', 0.1, 1):fadeIn('', '', '', '')}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           Following projects showcases my skills and experience through real-world examples of my work.Each one was finished in one week. Click the card to go the project website, click the github sign to go github repo.  
