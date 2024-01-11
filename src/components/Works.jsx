@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { styles } from "../styles"
 import { SectionWrapper } from '../hoc'
 import { github } from '../assets';
-import { fadeIn, textVariant } from '../utils/motion'
+// import { fadeIn, textVariant } from '../utils/motion'
 import { projects } from '../constants';
 import { useEffect, useState } from "react";
 
@@ -85,7 +85,7 @@ const Works = () => {
   return (
     <>
       <motion.div
-        variants={textVariant()}
+        // variants={textVariant()}
       >
       <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Project.</h2>
