@@ -25,6 +25,7 @@ import {
   booksnap,
   dreamphotography,
   huntergarden,
+  lovecalculator,
   // threejs,
   python,
   dreamlife,
@@ -366,6 +367,29 @@ const projects = [
     image: booksnap,
     source_code_link: "https://github.com/JennyZhong2022/BookSnap",
     website_link:'https://booksnap-ecea12c610c0.herokuapp.com/',
+  },
+  {
+    name: "Love Calculator",
+    description:
+      "The Love Calculator React App is a delightful, user-friendly application built with React.js. It calculates the compatibility of a relationship by taking two names as input.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "pink-text-gradient",
+      },
+   
+    ],
+    image: lovecalculator,
+    source_code_link: "https://github.com/JennyZhong2022/Love-Calculator",
+    website_link:'http://my-love-calculator.s3-website-ap-southeast-2.amazonaws.com/',
   },
   
 ];

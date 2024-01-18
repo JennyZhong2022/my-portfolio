@@ -36,7 +36,8 @@ import slotmachine from './slotmachine.jpeg';
 import startasker from "./startasker.jpeg";
 import booksnap from "./booksnap.jpeg";
 import dreamphotography from "./dreamphotography.jpeg";
-import huntergarden from './huntergarden.jpeg'
+import huntergarden from './huntergarden.jpeg';
+import lovecalculator from './lovecalculator.jpg'
 
 export {
   logo,
@@ -73,5 +74,6 @@ export {
   booksnap,
   dreamphotography,
   huntergarden,
+  lovecalculator,
 
 };
