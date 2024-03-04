@@ -153,10 +153,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2015 - Oct 2017",
     points: [
-      "Tailoring a wedding package in accordance to customers needs and budget. Adapting agile methodologies to improve processes and increase sales by 26% over the previous year after being given responsibility for sales.",
-      "Liaised effectively with photographers, make-up artists, editors, and clients to tailor wedding packages, enhancing customer satisfaction through excellent communication and collaboration.",
-      "Managed customer inquiries and bookings, showcasing responsibility in handling client relations and demonstrating robust organizational abilities.",
-      " Addressed and resolved customer issues promptly, resulting in very few complaints due to positive and timely responses. This ensured high service standards and skillful management of any unforeseen challenges.",
+      "Customized wedding packages to meet client needs and budgets, utilizing agile methods to boost sales by 26% year-over-year.",
+      "Coordinated with photographers, makeup artists, and clients to enhance satisfaction through superior communication. ",
+      "Handled inquiries and bookings efficiently, demonstrating strong organizational skills.",
+      " Quickly resolved customer issues, maintaining high service standards and minimizing complaints.",
     ],
   },
   {
@@ -166,10 +166,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Nov 2017 - May 2022",
     points: [
-      "Working as a secretary for an Occupational Physician, managing his schedules, handling all booking enquires by phone and email among patients, insurance companies, legal practices and other organisations. Increased bookings by 30%-40%for the Occupational Physician since working as his secretary, showcasing meticulousness and innovative problem resolution.",
-      " Collaborated closely with medical staff and administrative teams, ensuring seamless patient care and office management.",
-      "Quickly adapted to diverse medical administrative tasks and efficiently managed emergency situations, ensuring patient safety and operational continuity.",
-      "Handled sensitive patient information and complex queries, maintaining confidentiality and demonstrating strong interpersonal communication skills.",
+      "Managed the Occupational Physician's schedule and handled bookings via phone and email with patients, insurers, and legal entities, boosting bookings by 30%-40%.",
+      "Enhanced office management and patient care by collaborating with medical and administrative staff.",
+      "Maintained confidentiality while handling sensitive information and complex inquiries, showcasing effective communication skills.",
     ],
   },
   {
@@ -180,7 +179,7 @@ const experiences = [
     date: "Jan 2023 - Apr 2023",
     points: [
       "I was honored to be selected to participate in a web development training focused on React development, which was hosted by the Victorian Government's Digital Jobs program.",
-      "Demonstrating pro-activeness, I undertook and successfully completed a solo project, showcasing my ability to apply theoretical knowledge in a real-world context",
+      "Demonstrating pro-activeness, I undertook and successfully completed a solo project, showcasing my ability to apply theoretical knowledge in a real-world context.",
     ],
   },
   {
@@ -190,9 +189,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2023 - Present",
     points: [
-      "Continuously learned and improved skills through self-study and attending General Assembly Software Engineer Immersive courses.",
-      "Finished solo projects and team projects with efficient time management, achieving all set objectives and meeting project deadlines.",
-      "Acquired full-stack development expertise and applied it to real-world projects.",
+      "I successfully completed the React Development course and the Software Engineering Immersive program, where I not only met but exceeded project objectives within strict deadlines. Through these experiences, I've developed a robust full-stack development skill set, which I've applied to various projects. This includes working both independently and as part of a team, where my ability to manage time efficiently and collaborate effectively was key to our success.",
+      "I developed BookSnap, a single-page application that leverages the Google Books API for efficient reading list management, employing the MERN stack and Agile methodologies. This project, along with more Full Stack APPs, DreamPhotography and Star Tasker, demonstrates my holistic software development skills, encompassing everything from ideation to implementation.",
+      "My journey from health administration and sales customer service management to software engineering has been driven by a passion for problem-solving and creating impactful, user-centric software solutions. I am eager to continue this journey, seeking out new opportunities to grow, innovate, and contribute to meaningful projects in the tech world.",
     ],
   },
 ];
