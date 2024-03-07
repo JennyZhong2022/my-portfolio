@@ -146,19 +146,19 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Sales Customer Service Manager",
-    company_name: "Dreamlife Photos & Video",
-    icon:  dreamlife,
-    iconBg: "#E6DEDD",
-    date: "May 2015 - Oct 2017",
-    points: [
-      "Customized wedding packages to meet client needs and budgets, utilizing agile methods to boost sales by 26% year-over-year.",
-      "Coordinated with photographers, makeup artists, and clients to enhance satisfaction through superior communication. ",
-      "Handled inquiries and bookings efficiently, demonstrating strong organizational skills.",
-      " Quickly resolved customer issues, maintaining high service standards and minimizing complaints.",
-    ],
-  },
+  // {
+  //   title: "Sales Customer Service Manager",
+  //   company_name: "Dreamlife Photos & Video",
+  //   icon:  dreamlife,
+  //   iconBg: "#E6DEDD",
+  //   date: "May 2015 - Oct 2017",
+  //   points: [
+  //     "Customized wedding packages to meet client needs and budgets, utilizing agile methods to boost sales by 26% year-over-year.",
+  //     "Coordinated with photographers, makeup artists, and clients to enhance satisfaction through superior communication. ",
+  //     "Handled inquiries and bookings efficiently, demonstrating strong organizational skills.",
+  //     " Quickly resolved customer issues, maintaining high service standards and minimizing complaints.",
+  //   ],
+  // },
   {
     title: "Healthcare Receptionist & Secretary",
     company_name: "Box Hill Mall Medical Center",
