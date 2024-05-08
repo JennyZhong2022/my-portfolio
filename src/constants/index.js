@@ -295,8 +295,8 @@ const projects = [
       },
     ],
     image: huntergarden,
-    source_code_link: "https://github.com/JennyZhong2022/Hunter",
-    website_link:'http://huntergarden.s3-website-ap-southeast-2.amazonaws.com/',
+    source_code_link: "https://github.com/JennyZhong2022/Hunter-And-Me",
+    website_link:'https://hunter-and-me.onrender.com',
   },
   {
     name: "Slot Machine Game",
@@ -387,8 +387,8 @@ const projects = [
    
     ],
     image: lovecalculator,
-    source_code_link: "https://github.com/JennyZhong2022/Love-Calculator",
-    website_link:'http://my-love-calculator.s3-website-ap-southeast-2.amazonaws.com/',
+    source_code_link: "https://github.com/JennyZhong2022/LoveCalculator",
+    website_link:'https://lovecalculator-jfxh.onrender.com',
   },
   
 ];
