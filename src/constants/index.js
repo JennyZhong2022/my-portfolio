@@ -365,7 +365,7 @@ const projects = [
     ],
     image: booksnap,
     source_code_link: "https://github.com/JennyZhong2022/BookSnap",
-    website_link:'https://booksnap-ecea12c610c0.herokuapp.com/',
+    website_link:'https://booksnap-9od4.onrender.com/',
   },
   {
     name: "Love Calculator",
