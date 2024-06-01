@@ -164,7 +164,7 @@ const experiences = [
     company_name: "General Assembly",
     icon: general_assembly,
     iconBg: "#383E56",
-    date: "Jan 2023 - Present",
+    date: "Oct 2023 - Jan 2024",
     points: [
       "I successfully completed the React Development course and the Software Engineering Immersive program, where I not only met but exceeded project objectives within strict deadlines. Through these experiences, I've developed a robust full-stack development skill set, which I've applied to various projects. This includes working both independently and as part of a team, where my ability to manage time efficiently and collaborate effectively was key to our success.",
       "I developed BookSnap, a single-page application that leverages the Google Books API for efficient reading list management, employing the MERN stack and Agile methodologies. This project, along with more Full Stack APPs, DreamPhotography and Star Tasker, demonstrates my holistic software development skills, encompassing everything from ideation to implementation.",
@@ -184,10 +184,10 @@ const experiences = [
   },
   {
     title: "Healthcare Receptionist & Secretary",
-    company_name: "Box Hill Mall Medical Center",
+    company_name: "Box Hill Mall Medical Center & Langton Medical Center",
     icon: medical_team,
     iconBg: "#383E56",
-    date: "Nov 2017 - May 2022",
+    date: "Nov 2017 - Present",
     points: [
       "Managed the Occupational Physician's schedule and handled bookings via phone and email with patients, insurers, and legal entities, boosting bookings by 30%-40%.",
       "Enhanced office management and patient care by collaborating with medical and administrative staff.",
