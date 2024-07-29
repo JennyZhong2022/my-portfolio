@@ -227,7 +227,7 @@ const projects = [
     ],
     image: dreamphotography,
     source_code_link: "https://github.com/JennyZhong2022/Dream-Photography",
-    website_link:'"https://github.com/JennyZhong2022/Dream-Photography"'
+    website_link:"https://github.com/JennyZhong2022/Dream-Photography"
   },
   
   {
