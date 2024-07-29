@@ -227,7 +227,7 @@ const projects = [
     ],
     image: dreamphotography,
     source_code_link: "https://github.com/JennyZhong2022/Dream-Photography",
-    website_link:'https://dreamphotography-f9294ed19bab.herokuapp.com/'
+    website_link:'"https://github.com/JennyZhong2022/Dream-Photography"'
   },
   
   {
@@ -266,7 +266,7 @@ const projects = [
     ],
     image: startasker,
     source_code_link: "https://github.com/JennyZhong2022/Star-Tasker",
-    website_link:'https://star-tasker-10a7c6bbe05a.herokuapp.com/tasks/all',
+    website_link:"https://github.com/JennyZhong2022/Star-Tasker",
   },
   {
     name: "Hunter's Garden",
