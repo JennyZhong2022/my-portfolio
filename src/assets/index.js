@@ -6,9 +6,13 @@ import github from "./github.png";
 import linkedin from './linkedin.png';
 import menu from "./menu.svg";
 import close from "./close.svg";
-import python from './python.png'
-
+import python from './python.png';
+import nextJs from './tech/nextjs.png';
 import css from "./tech/css.png";
+import scss from "./tech/scss.png";
+import nestJs from "./tech/nestjs.png";
+import spring from "./tech/spring.png";
+import aws from "./tech/aws.png";
 // import docker from "./tech/docker.png";
 // import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -17,6 +21,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import java from "./tech/java.png";
 // import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import bootstrap from './tech/Bootstrap.svg';
@@ -41,6 +46,7 @@ import lovecalculator from './lovecalculator.jpg'
 
 export {
   logo,
+  java,
   backend,
   creator,
   web,
@@ -49,6 +55,10 @@ export {
   menu,
   close,
   css,
+scss ,
+ nestJs ,
+ spring ,
+ aws ,
   // docker,
   // figma,
   git,
@@ -64,6 +74,7 @@ export {
   MUI,
   django,
   typescript,
+  nextJs,
   // threejs,
   general_assembly,
   victoria_state_gov,

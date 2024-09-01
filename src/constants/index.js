@@ -1,5 +1,6 @@
 import {
   backend,
+  java,
   creator,
   web,
   javascript,
@@ -13,6 +14,11 @@ import {
   mongodb,
   git,
   bootstrap,
+  nextJs,
+  scss ,
+ nestJs ,
+ spring ,
+ aws ,
   MUI,
   django,
   // figma,
@@ -64,9 +70,13 @@ const services = [
     icon: backend,
   },
   {
-    title: "Python Developer",
-    icon: python,
+    title: "Java Developer",
+    icon: java,
   },
+  // {
+  //   title: "Python Developer",
+  //   icon: python,
+  // },
 ];
 
 const technologies = [
@@ -77,6 +87,10 @@ const technologies = [
   {
     name: "CSS 3",
     icon: css,
+  },
+  {
+    name: "Scss",
+    icon: scss,
   },
   {
     name: "JavaScript",
@@ -106,10 +120,6 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
   {
     name: "git",
     icon: git,
@@ -119,22 +129,37 @@ const technologies = [
     icon: bootstrap,
   },
   {
-    name: "MUI",
-    icon: MUI,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "Python",
-    icon: python,
+    name: "Spring",
+    icon: spring,
   },
   {
-    name: "Django",
-    icon: django,
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Next.js",
+    icon: nextJs,
+  },
+  {
+    name: "Nest.js",
+    icon: nestJs,
   },
 
-  //   {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
+
+  // {
+  //   name: "Python",
+  //   icon: python,
   // },
+  // {
+  //   name: "Django",
+  //   icon: django,
+  // },
+
+
   // {
   //   name: "figma",
   //   icon: figma,
