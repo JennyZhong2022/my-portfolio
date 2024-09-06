@@ -5,13 +5,11 @@
 Hi, I am proud to present my portfolio. Please take a moment to explore my website, which showcases my projects, work experience, technical skills, and more. It is deployed to Render: [Jenny-Portfolio](https://jenny-zhong-portfolio.onrender.com/)
 
 ## Features
-- 3D animation 
 - fancinating CSS animation
 - navagation to pages or links
 
 ### Prerequisites
 - react+vite
-- three.js
 - email.js
 
 
