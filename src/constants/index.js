@@ -19,7 +19,7 @@ import {
   nestJs,
   spring,
   aws,
-  fireStore,
+  // fireStore,
   // MUI,
   // django,
   // figma,
@@ -152,10 +152,10 @@ const technologies = [
     name: "Nest.js",
     icon: nestJs,
   },
-  {
-    name: "FireStore",
-    icon: fireStore,
-  },
+  // {
+  //   name: "FireStore",
+  //   icon: fireStore,
+  // },
 
   // {
   //   name: "Python",

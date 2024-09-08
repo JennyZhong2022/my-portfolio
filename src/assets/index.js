@@ -28,7 +28,7 @@ import bootstrap from "./tech/Bootstrap.svg";
 import typescript from "./tech/typescript.png";
 import MUI from "./tech/MUI.png";
 import django from "./tech/django-python.png";
-import fireStore from "./tech/fireStore.jpg";
+// import fireStore from "./tech/fireStore.jpg";
 // import threejs from "./tech/threejs.svg";
 
 import general_assembly from "./company/general_assembly.png";
@@ -70,7 +70,7 @@ export {
   nodejs,
   reactjs,
   python,
-  fireStore,
+  // fireStore,
   // redux,
   tailwind,
   bootstrap,
