@@ -3,11 +3,11 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import web from "./web.png";
 import github from "./github.png";
-import linkedin from './linkedin.png';
+import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import python from './python.png';
-import nextJs from './tech/nextjs.png';
+import python from "./python.png";
+import nextJs from "./tech/nextjs.png";
 import css from "./tech/css.png";
 import scss from "./tech/scss.png";
 import nestJs from "./tech/nestjs.png";
@@ -24,25 +24,27 @@ import reactjs from "./tech/reactjs.png";
 import java from "./tech/java.png";
 // import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import bootstrap from './tech/Bootstrap.svg';
+import bootstrap from "./tech/Bootstrap.svg";
 import typescript from "./tech/typescript.png";
-import MUI from './tech/MUI.png';
-import django from './tech/django-python.png';
+import MUI from "./tech/MUI.png";
+import django from "./tech/django-python.png";
+import fireStore from "./tech/fireStore.jpg";
 // import threejs from "./tech/threejs.svg";
 
+import general_assembly from "./company/general_assembly.png";
+import dreamlife from "./company/dreamlife.png";
+import medical_team from "./company/medical_team.png";
+import victoria_state_gov from "./company/victoria_state_government.svg";
 
-
-import general_assembly from './company/general_assembly.png';
-import dreamlife from './company/dreamlife.png';
-import medical_team from './company/medical_team.png';
-import victoria_state_gov from './company/victoria_state_government.svg';
-
-import slotmachine from './slotmachine.jpeg';
+import slotmachine from "./slotmachine.jpeg";
 import startasker from "./startasker.jpeg";
 import booksnap from "./booksnap.jpeg";
 import dreamphotography from "./dreamphotography.jpeg";
-import huntergarden from './huntergarden.jpeg';
-import lovecalculator from './lovecalculator.jpg'
+import huntergarden from "./huntergarden.jpeg";
+import lovecalculator from "./lovecalculator.jpg";
+import snackEShop from "./snackEShop.jpg";
+import movieReviewer from "./movieReviewer.jpg";
+import todoApp from "./todoApp.jpg";
 
 export {
   logo,
@@ -55,10 +57,10 @@ export {
   menu,
   close,
   css,
-scss ,
- nestJs ,
- spring ,
- aws ,
+  scss,
+  nestJs,
+  spring,
+  aws,
   // docker,
   // figma,
   git,
@@ -68,6 +70,7 @@ scss ,
   nodejs,
   reactjs,
   python,
+  fireStore,
   // redux,
   tailwind,
   bootstrap,
@@ -86,5 +89,7 @@ scss ,
   dreamphotography,
   huntergarden,
   lovecalculator,
-
+  snackEShop,
+  movieReviewer,
+  todoApp,
 };

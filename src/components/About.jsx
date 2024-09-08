@@ -1,62 +1,66 @@
 // import { Tilt } from "react-tilt"
-import { motion } from 'framer-motion'
-import { styles } from "../styles"
-import { fadeIn, textVariant } from '../utils/motion'
-import { services } from '../constants'
-import { Tilt } from 'react-tilt'
-import { SectionWrapper } from '../hoc'
+import { motion } from "framer-motion";
+import { styles } from "../styles";
+import { fadeIn, textVariant } from "../utils/motion";
+import { services } from "../constants";
+import { Tilt } from "react-tilt";
+import { SectionWrapper } from "../hoc";
 
-const ServiceCard = ({index,title,icon}) => {
+const ServiceCard = ({ index, title, icon }) => {
   return (
-    <Tilt className='xs:w-[250px] w-full' >
+    <Tilt className="xs:w-[250px] w-full">
       <motion.div
-        variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
-        className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+        className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <div
           options={{
             max: 45,
             scale: 1,
-            speed:450
+            speed: 450,
           }}
-          className='bg-tertiary rounded-[20px] py-5 pyx-12 min-h-[280px] flex justify-evenly items-center flex-col'
+          className="bg-tertiary rounded-[20px] py-5 pyx-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
-          <img src={icon} alt={title}
-            className='w-16 h-16 object-contain' />
-          <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
-
+          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <h3 className="text-white text-[20px] font-bold text-center">
+            {title}
+          </h3>
         </div>
-
       </motion.div>
     </Tilt>
-  )
-}
+  );
+};
 
 const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={`${styles.sectionHeadText} text-white`}>Hi, I&apos;m <span className="text-[#357DB8]">
-                 Jenny </span>
-          </h2>
+        <h2 className={`${styles.sectionHeadText} text-white`}>
+          Hi, I&apos;m <span className="text-[#357DB8]">Jenny </span>
+        </h2>
       </motion.div>
 
       <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-         As a professional transitioning from health administration and sales customer service to software engineering, I have honed key skills like meticulous attention to detail and robust problem-solving abilities, which are pivotal in the tech industry. My experience in understanding and managing complex systems and prioritizing user needs has been instrumental in my journey towards developing software that is not only efficient and user-friendly but also makes a tangible positive impact. I take immense pride in my innovative solutions and creations. Looking ahead, I am excited about opportunities that allow me to grow, learn, and contribute to meaningful and creative projects in the tech world!
-
+        With a background in health administration and customer service, I have
+        developed key skills such as attention to detail and problem-solving,
+        which are essential in software engineering. Experience in managing
+        complex systems and addressing user needs has provided a solid
+        foundation for developing efficient and user-friendly software
+        solutions. Looking forward, I aim to apply and expand these skills
+        through new opportunities in the tech industry.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service,index) => (
+      <div className="mt-20 flex flex-wrap gap-10">
+        {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
-       ))}
+        ))}
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(About,'about')
+export default SectionWrapper(About, "about");

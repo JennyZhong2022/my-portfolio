@@ -15,12 +15,13 @@ import {
   git,
   bootstrap,
   nextJs,
-  scss ,
- nestJs ,
- spring ,
- aws ,
-  MUI,
-  django,
+  scss,
+  nestJs,
+  spring,
+  aws,
+  fireStore,
+  // MUI,
+  // django,
   // figma,
   // docker,
   general_assembly,
@@ -30,6 +31,9 @@ import {
   startasker,
   booksnap,
   dreamphotography,
+  snackEShop,
+  movieReviewer,
+  todoApp,
   huntergarden,
   lovecalculator,
   // threejs,
@@ -148,7 +152,10 @@ const technologies = [
     name: "Nest.js",
     icon: nestJs,
   },
-
+  {
+    name: "FireStore",
+    icon: fireStore,
+  },
 
   // {
   //   name: "Python",
@@ -158,7 +165,6 @@ const technologies = [
   //   name: "Django",
   //   icon: django,
   // },
-
 
   // {
   //   name: "figma",
@@ -200,7 +206,7 @@ const experiences = [
     title: "Victorian Government's Digital Jobs program Participant",
     company_name: "Victoria State Government",
     icon: victoria_state_gov,
-    iconBg:  "#E6DEDD",
+    iconBg: "#E6DEDD",
     date: "Jan 2023 - Apr 2023",
     points: [
       "I was honored to be selected to participate in a web development training focused on React development, which was hosted by the Victorian Government's Digital Jobs program.",
@@ -221,51 +227,71 @@ const experiences = [
   },
 ];
 
-
-
 const projects = [
   {
-    name: "DreamPhotography",
+    name: "Task Tracking System",
     description:
-      "DreamPhotography is a web-based application designed for wedding photography booking and management. It allows clients to find and message photographers for their wedding booking, while providing a platform for photographers to showcase their work by uploading,deleting photos. Photographers can also upload photos to their clients' album and clients can download photos from their album.The website is responsive too.",
+      "The Task Tracking System is a full-stack application designed to help users efficiently manage their tasks through a user-friendly interface. This application allows for task creation, editing, duplication, and deletion within customized categories.",
     tags: [
       {
-        name: "python",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "django",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "aws",
+        name: "Java",
         color: "pink-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "Spring",
         color: "blue-text-gradient",
       },
       {
-        name: "heroku",
+        name: "react-hook-form",
         color: "green-text-gradient",
       },
     ],
-    image: dreamphotography,
-    source_code_link: "https://github.com/JennyZhong2022/Dream-Photography",
-    website_link:"https://github.com/JennyZhong2022/Dream-Photography"
+    image: todoApp,
+    source_code_link: "https://github.com/JennyZhong2022/to-do-list",
+    website_link: "https://github.com/JennyZhong2022/to-do-list",
   },
-  
   {
-    name: "Star Tasker",
+    name: "Pick Your Snack e-Shop",
     description:
-      "Star Tasker is a user-friendly web application designed to streamline task management. It offers secure user authentication for signup and login, ensuring the protection of user data. Users can effortlessly post tasks, upload multiple images for each task and manage their tasks through a personalized dashboard. Additionally, the application boasts a responsive design too",
+      "A curated online shop for healthy snacks, aimed to combat the 3pm sugar crash. This full-stack web application offers a user-friendly experience where customers can browse, select, and purchase a variety of snacks. The project uses React for the frontend and Firebase FireStore for the backend, making the site dynamic and responsive.",
     tags: [
       {
-        name: "javascript",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "scss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "fireStore",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: snackEShop,
+    source_code_link: "https://github.com/JennyZhong2022/e-shop",
+    website_link: "https://jennyzhong2022.github.io/e-shop/",
+  },
+
+  {
+    name: "Movie Reviewer",
+    description:
+      "MovieReviewer is a MERN (MongoDB, Express.js, React, Node.js) full stack app that allows users to sign in, log in, browse movies, search movies, add movies to their favorite list, and write reviews for movies. It integrates with the TMDB (The Movie Database) API to fetch movie data dynamically.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
@@ -273,25 +299,43 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "scss",
         color: "blue-text-gradient",
       },
       {
-        name: "cloudinary",
-        color: "green-text-gradient",
-      },
-      {
-        name: "expressjs",
+        name: "express.js",
         color: "pink-text-gradient",
       },
       {
-        name: "heroku",
-        color: "blue-text-gradient",
+        name: "react-hook-form",
+        color: "green-text-gradient",
       },
     ],
-    image: startasker,
-    source_code_link: "https://github.com/JennyZhong2022/Star-Tasker",
-    website_link:"https://github.com/JennyZhong2022/Star-Tasker",
+    image: movieReviewer,
+    source_code_link: "https://github.com/JennyZhong2022/movie-reviewer",
+    website_link: "https://movie-reviewer-client.onrender.com/",
+  },
+  {
+    name: "Slot Machine Game",
+    description:
+      "A browser based slot machine game. Immerse yourself in the atmosphere with realistic audio effects that enhance your game-play experience. Our game offers flexible betting options and with every spin being entirely random, you're guaranteed a unique and exciting experience every time you play.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: slotmachine,
+    source_code_link: "https://github.com/JennyZhong2022/Slot-Machine",
+    website_link: "https://jennyzhong2022.github.io/Slot-Machine/",
   },
   {
     name: "Hunter's Garden",
@@ -314,84 +358,12 @@ const projects = [
         name: "chakra",
         color: "blue-text-gradient",
       },
-      {
-        name: "aws",
-        color: "green-text-gradient",
-      },
     ],
     image: huntergarden,
     source_code_link: "https://github.com/JennyZhong2022/Hunter-And-Me",
-    website_link:'https://hunter-and-me.onrender.com',
+    website_link: "https://hunter-and-me.onrender.com",
   },
-  {
-    name: "Slot Machine Game",
-    description:
-      "A browser based slot machine game. Immerse yourself in the atmosphere with realistic audio effects that enhance your game-play experience. Our game offers flexible betting options and with every spin being entirely random, you're guaranteed a unique and exciting experience every time you play.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "github",
-        color: "blue-text-gradient",
-      },
-      
-    ],
-    image: slotmachine,
-    source_code_link: "https://github.com/JennyZhong2022/Slot-Machine",
-    website_link:'https://jennyzhong2022.github.io/Slot-Machine/',
-  },
-  {
-    name: "BookSnap",
-    description:
-      "BookSnap is a full-stack, single-page web application that allows users to search for books using the Google Books API. Users can search for books, add them to their collection, and manage their reading list. It is a collaborative project involving four team members who worked together for one week, utilizing GitHub branches and Trello to assign tasks. The project focuses on a MERN infrastructure.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "expressjs",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongoose",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mui",
-        color: "green-text-gradient",
-      },
-      {
-        name: "git",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "trello",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "heroku",
-        color: "green-text-gradient",
-      },
-    ],
-    image: booksnap,
-    source_code_link: "https://github.com/JennyZhong2022/BookSnap",
-    website_link:'https://booksnap-9od4.onrender.com/',
-  },
+
   {
     name: "Love Calculator",
     description:
@@ -405,17 +377,11 @@ const projects = [
         name: "mui",
         color: "green-text-gradient",
       },
-      {
-        name: "aws",
-        color: "pink-text-gradient",
-      },
-   
     ],
     image: lovecalculator,
     source_code_link: "https://github.com/JennyZhong2022/LoveCalculator",
-    website_link:'https://lovecalculator-jfxh.onrender.com',
+    website_link: "https://lovecalculator-jfxh.onrender.com",
   },
-  
 ];
 
 export { services, technologies, experiences, projects };
