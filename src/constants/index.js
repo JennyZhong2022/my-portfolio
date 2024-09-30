@@ -256,7 +256,8 @@ const projects = [
     ],
     image: todoApp,
     source_code_link: "https://github.com/JennyZhong2022/to-do-list",
-    website_link: "https://github.com/JennyZhong2022/to-do-list",
+    website_link:
+      "http://jennytodo-list.s3-website-ap-southeast-2.amazonaws.com/",
   },
   {
     name: "Pick Your Snack e-Shop",
