@@ -253,6 +253,10 @@ const projects = [
         name: "react-hook-form",
         color: "green-text-gradient",
       },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
     ],
     image: todoApp,
     source_code_link: "https://github.com/JennyZhong2022/to-do-list",
