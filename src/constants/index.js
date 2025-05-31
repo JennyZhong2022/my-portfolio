@@ -369,24 +369,24 @@ const projects = [
     website_link: "https://hunter-and-me.onrender.com",
   },
 
-  {
-    name: "Love Calculator",
-    description:
-      "The Love Calculator React App is a delightful, user-friendly application built with React.js. It calculates the compatibility of a relationship by taking two names as input.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mui",
-        color: "green-text-gradient",
-      },
-    ],
-    image: lovecalculator,
-    source_code_link: "https://github.com/JennyZhong2022/LoveCalculator",
-    website_link: "https://lovecalculator-jfxh.onrender.com",
-  },
+  // {
+  //   name: "Love Calculator",
+  //   description:
+  //     "The Love Calculator React App is a delightful, user-friendly application built with React.js. It calculates the compatibility of a relationship by taking two names as input.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mui",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: lovecalculator,
+  //   source_code_link: "https://github.com/JennyZhong2022/LoveCalculator",
+  //   website_link: "https://lovecalculator-jfxh.onrender.com",
+  // },
 ];
 
 export { services, technologies, experiences, projects };
